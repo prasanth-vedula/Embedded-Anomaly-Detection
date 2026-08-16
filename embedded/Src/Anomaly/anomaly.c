@@ -1,10 +1,9 @@
 #include "../Inc/Anomaly/anomaly.h"
 #include "../Inc/Config/config.h"
 #include "../Inc/Config/deployment_parameters.h"
-
 #include <math.h>
 #include <stdint.h>
-
+#include <stddef.h>
 #define FAULT_CONTRIBUTION_RATIO (0.20F)
 #define FAULT_MASK_EPSILON       (1.0e-6F)
 

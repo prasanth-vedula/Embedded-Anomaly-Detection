@@ -1,4 +1,4 @@
-﻿{"ts":18300,"score":3.356428,"severity":2,"fault_mask":15}
+{"ts":18300,"score":3.356428,"severity":2,"fault_mask":15}
 {"ts":18400,"score":4.584712,"severity":2,"fault_mask":15}
 {"ts":18500,"score":4.063476,"severity":2,"fault_mask":11}
 {"ts":18600,"score":3.789423,"severity":2,"fault_mask":11}

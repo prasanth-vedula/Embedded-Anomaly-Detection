@@ -1,4 +1,4 @@
-﻿============================= test session starts =============================
+============================= test session starts =============================
 platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- D:\EMBDDED SYSTEMS & IOT\ALL SOFTWARES AND FILES\Python311\python.exe
 cachedir: .pytest_cache
 rootdir: X:\Embedded-Anomaly-Detection
@@ -31,4 +31,4 @@ tests/integration/test_deployment_consistency.py::test_exported_embedded_header_
 tests/integration/test_deployment_consistency.py::test_all_deployment_layers_exist PASSED [ 96%]
 tests/integration/test_end_to_end.py::test_training_evaluation_deployment_metadata_chain PASSED [100%]
 
-============================= 25 passed in 3.30s ==============================
+============================= 25 passed in 3.28s ==============================
