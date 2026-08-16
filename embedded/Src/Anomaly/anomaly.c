@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "../Inc/Anomaly/anomaly.h"
 #include "../Inc/Config/config.h"
 #include "../Inc/Config/deployment_parameters.h"
