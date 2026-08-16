@@ -114,6 +114,10 @@ target_include_directories(
         ${EMBEDDED_INCLUDE_DIR}
 )
 
+if(NOT WIN32)
+    target_link_libraries(embedded_preprocess_test PRIVATE m)
+endif()
+
 target_compile_options(
     embedded_preprocess_test
     PRIVATE
