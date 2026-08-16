@@ -1,0 +1,3 @@
+FP32 MODEL
+Architecture: [80, 32, 8, 32, 80]
+Parameters: 5784

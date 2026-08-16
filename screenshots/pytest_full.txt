@@ -1,0 +1,29 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- D:\EMBDDED SYSTEMS & IOT\ALL SOFTWARES AND FILES\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: X:\Embedded-Anomaly-Detection
+configfile: pyproject.toml
+collecting ... collected 20 items
+
+tests/python/test_evaluation.py::test_threshold_is_calibrated_from_healthy_validation PASSED [  5%]
+tests/python/test_evaluation.py::test_all_fault_scenarios_are_evaluated PASSED [ 10%]
+tests/python/test_evaluation.py::test_threshold_calibration_is_deterministic PASSED [ 15%]
+tests/python/test_model.py::test_architecture_and_parameter_count PASSED [ 20%]
+tests/python/test_model.py::test_forward_shape_and_nonnegative_reconstruction_error PASSED [ 25%]
+tests/python/test_model.py::test_training_produces_real_autoencoder PASSED [ 30%]
+tests/python/test_model.py::test_saved_model_reload_is_numerically_consistent PASSED [ 35%]
+tests/python/test_pipeline.py::test_dataset_reproducible_and_contains_all_faults PASSED [ 40%]
+tests/python/test_pipeline.py::test_windows_and_scaling PASSED           [ 45%]
+tests/python/test_pipeline.py::test_scaler_round_trip PASSED             [ 50%]
+tests/python/test_pipeline.py::test_scaler_serialization PASSED          [ 55%]
+tests/python/test_pipeline.py::test_invalid_data_is_rejected PASSED      [ 60%]
+tests/python/test_quantization.py::test_quantized_artifact_has_correct_structure PASSED [ 65%]
+tests/python/test_quantization.py::test_quantized_tensor_shapes_and_ranges PASSED [ 70%]
+tests/python/test_quantization.py::test_quantized_scales_reconstruct_original_ranges PASSED [ 75%]
+tests/python/test_quantization.py::test_dequantized_inference_remains_close_to_fp32 PASSED [ 80%]
+tests/python/test_quantization.py::test_anomaly_scores_remain_close_after_quantization PASSED [ 85%]
+tests/python/test_quantization.py::test_threshold_is_copied_from_calibrated_metadata PASSED [ 90%]
+tests/python/test_quantization.py::test_fp32_parameter_count_is_exact PASSED [ 95%]
+tests/integration/test_end_to_end.py::test_training_evaluation_deployment_metadata_chain PASSED [100%]
+
+============================= 20 passed in 4.98s ==============================

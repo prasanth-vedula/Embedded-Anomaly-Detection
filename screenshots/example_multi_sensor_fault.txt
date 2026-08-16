@@ -1,0 +1,18 @@
+﻿{
+  "scenario": "multi_sensor_fault",
+  "model": [
+    80,
+    32,
+    8,
+    32,
+    80
+  ],
+  "threshold": 0.19294606685638452,
+  "window_count": 2385.0,
+  "mean_error": 2.0771849155426025,
+  "p95_error": 4.897256851196289,
+  "p99_error": 5.361780643463135,
+  "max_error": 5.911520957946777,
+  "anomaly_rate": 0.5031446540880503,
+  "expected_behavior": "strong reconstruction error from simultaneous sensor disturbances"
+}

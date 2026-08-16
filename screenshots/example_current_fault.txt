@@ -1,0 +1,18 @@
+﻿{
+  "scenario": "current_fault",
+  "model": [
+    80,
+    32,
+    8,
+    32,
+    80
+  ],
+  "threshold": 0.19294606685638452,
+  "window_count": 2385.0,
+  "mean_error": 0.39116212725639343,
+  "p95_error": 1.215505599975586,
+  "p99_error": 1.362576961517334,
+  "max_error": 1.590083360671997,
+  "anomaly_rate": 0.289727463312369,
+  "expected_behavior": "elevated reconstruction error from current disturbance"
+}

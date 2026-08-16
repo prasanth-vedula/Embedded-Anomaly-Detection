@@ -1,0 +1,6 @@
+INT8 DEPLOYMENT MODEL
+Model type: dense_autoencoder_int8
+Architecture: [80, 32, 8, 32, 80]
+Parameters: 5784
+Threshold: 0.19294606685638452
+Layers: encoder, latent, decoder, output

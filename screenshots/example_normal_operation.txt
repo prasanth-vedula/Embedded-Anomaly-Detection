@@ -1,0 +1,18 @@
+﻿{
+  "scenario": "normal_operation",
+  "model": [
+    80,
+    32,
+    8,
+    32,
+    80
+  ],
+  "threshold": 0.19294606685638452,
+  "window_count": 2385.0,
+  "mean_error": 0.11047397553920746,
+  "p95_error": 0.1698564738035202,
+  "p99_error": 0.19886918365955353,
+  "max_error": 0.27894026041030884,
+  "anomaly_rate": 0.013836477987421384,
+  "expected_behavior": "predominantly normal operation"
+}

@@ -1,0 +1,78 @@
+{
+  "model_type": "dense_autoencoder",
+  "architecture": [
+    80,
+    32,
+    8,
+    32,
+    80
+  ],
+  "hidden_activation": "relu",
+  "output_activation": "linear",
+  "parameter_count": 5784,
+  "training_samples": 1188,
+  "validation_samples": 297,
+  "train_loss": 0.09496335685253143,
+  "validation_loss": 0.12171346694231033,
+  "seed": 42,
+  "epochs": 250,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "threshold_status": "calibrated",
+  "threshold": 0.19294606685638452,
+  "threshold_method": "healthy_validation_quantile",
+  "threshold_quantile": 0.99,
+  "normal_validation_mean_error": 0.1217134619752566,
+  "normal_validation_std_error": 0.026608209449218004,
+  "normal_validation_p95_error": 0.17219465970993042,
+  "normal_validation_p99_error": 0.19294606685638452,
+  "normal_validation_max_error": 0.20974144339561462,
+  "normal_validation_count": 297,
+  "evaluation": {
+    "normal": {
+      "window_count": 2385.0,
+      "mean_error": 0.11047397553920746,
+      "std_error": 0.030464403331279755,
+      "p95_error": 0.1698564738035202,
+      "p99_error": 0.19886918365955353,
+      "max_error": 0.27894026041030884,
+      "anomaly_rate": 0.013836477987421384
+    },
+    "temperature_drift": {
+      "window_count": 2385.0,
+      "mean_error": 1.4715683460235596,
+      "std_error": 2.179469585418701,
+      "p95_error": 6.712406158447266,
+      "p99_error": 7.4652628898620605,
+      "max_error": 8.076497077941895,
+      "anomaly_rate": 0.45660377358490567
+    },
+    "vibration_fault": {
+      "window_count": 2385.0,
+      "mean_error": 1.3142993450164795,
+      "std_error": 1.3236885070800781,
+      "p95_error": 3.4942548274993896,
+      "p99_error": 4.651123523712158,
+      "max_error": 5.700313568115234,
+      "anomaly_rate": 0.5031446540880503
+    },
+    "current_fault": {
+      "window_count": 2385.0,
+      "mean_error": 0.39116212725639343,
+      "std_error": 0.4627039134502411,
+      "p95_error": 1.215505599975586,
+      "p99_error": 1.362576961517334,
+      "max_error": 1.590083360671997,
+      "anomaly_rate": 0.289727463312369
+    },
+    "multi_sensor_fault": {
+      "window_count": 2385.0,
+      "mean_error": 2.0771849155426025,
+      "std_error": 2.0182199478149414,
+      "p95_error": 4.897256851196289,
+      "p99_error": 5.361780643463135,
+      "max_error": 5.911520957946777,
+      "anomaly_rate": 0.5031446540880503
+    }
+  }
+}

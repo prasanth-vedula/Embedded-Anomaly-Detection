@@ -1,0 +1,17 @@
+# Minimal Doxygen configuration for the embedded C API.
+PROJECT_NAME           = "Embedded Anomaly Detection"
+OUTPUT_DIRECTORY       = docs/api
+INPUT                  = embedded/Inc embedded/Src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.c
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+SEARCHENGINE           = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+STRIP_FROM_PATH        = .

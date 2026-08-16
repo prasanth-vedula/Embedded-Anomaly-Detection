@@ -1,0 +1,34 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- D:\EMBDDED SYSTEMS & IOT\ALL SOFTWARES AND FILES\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: X:\Embedded-Anomaly-Detection
+configfile: pyproject.toml
+collecting ... collected 25 items
+
+tests/python/test_evaluation.py::test_threshold_is_calibrated_from_healthy_validation PASSED [  4%]
+tests/python/test_evaluation.py::test_all_fault_scenarios_are_evaluated PASSED [  8%]
+tests/python/test_evaluation.py::test_threshold_calibration_is_deterministic PASSED [ 12%]
+tests/python/test_model.py::test_architecture_and_parameter_count PASSED [ 16%]
+tests/python/test_model.py::test_forward_shape_and_nonnegative_reconstruction_error PASSED [ 20%]
+tests/python/test_model.py::test_training_produces_real_autoencoder PASSED [ 24%]
+tests/python/test_model.py::test_saved_model_reload_is_numerically_consistent PASSED [ 28%]
+tests/python/test_pipeline.py::test_dataset_reproducible_and_contains_all_faults PASSED [ 32%]
+tests/python/test_pipeline.py::test_windows_and_scaling PASSED           [ 36%]
+tests/python/test_pipeline.py::test_scaler_round_trip PASSED             [ 40%]
+tests/python/test_pipeline.py::test_scaler_serialization PASSED          [ 44%]
+tests/python/test_pipeline.py::test_invalid_data_is_rejected PASSED      [ 48%]
+tests/python/test_quantization.py::test_quantized_artifact_has_correct_structure PASSED [ 52%]
+tests/python/test_quantization.py::test_quantized_tensor_shapes_and_ranges PASSED [ 56%]
+tests/python/test_quantization.py::test_quantized_scales_reconstruct_original_ranges PASSED [ 60%]
+tests/python/test_quantization.py::test_dequantized_inference_remains_close_to_fp32 PASSED [ 64%]
+tests/python/test_quantization.py::test_anomaly_scores_remain_close_after_quantization PASSED [ 68%]
+tests/python/test_quantization.py::test_threshold_is_copied_from_calibrated_metadata PASSED [ 72%]
+tests/python/test_quantization.py::test_fp32_parameter_count_is_exact PASSED [ 76%]
+tests/integration/test_deployment_consistency.py::test_fp32_and_int8_model_architecture_match PASSED [ 80%]
+tests/integration/test_deployment_consistency.py::test_deployment_threshold_is_identical_across_artifacts PASSED [ 84%]
+tests/integration/test_deployment_consistency.py::test_preprocessing_artifact_matches_deployment_dimensions PASSED [ 88%]
+tests/integration/test_deployment_consistency.py::test_exported_embedded_header_matches_model PASSED [ 92%]
+tests/integration/test_deployment_consistency.py::test_all_deployment_layers_exist PASSED [ 96%]
+tests/integration/test_end_to_end.py::test_training_evaluation_deployment_metadata_chain PASSED [100%]
+
+============================= 25 passed in 3.30s ==============================

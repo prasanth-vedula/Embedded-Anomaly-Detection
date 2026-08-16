@@ -1,0 +1,23 @@
+# Build output
+build/
+embedded/build/
+
+# Python cache and test artifacts
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+
+# IDE / editor metadata
+.vscode/
+.idea/
+
+# Local logs
+*.log
+
+# Generated visualization files
+models/*.png
+
+# OS metadata
+.DS_Store
+Thumbs.db

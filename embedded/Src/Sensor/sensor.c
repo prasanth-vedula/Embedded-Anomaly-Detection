@@ -1,0 +1,4 @@
+#include <math.h>
+#include "../Inc/Sensor/sensor.h"
+status_t sensor_validate(const sensor_sample_t *s){if(!s)return STATUS_INVALID_ARG; if(!isfinite(s->temperature)||!isfinite(s->vibration)||!isfinite(s->pressure)||!isfinite(s->current)||!isfinite(s->humidity))return STATUS_INVALID_DATA; if(s->temperature< -40.0F||s->temperature>150.0F||s->vibration<0.0F||s->pressure<0.0F||s->current<0.0F||s->humidity<0.0F||s->humidity>100.0F)return STATUS_INVALID_DATA; return STATUS_OK;}
+void sensor_simulate(sensor_sample_t *s,uint32_t i,bool fault){float p=sinf((float)i*.035F); s->temperature=68.0F+2.0F*p; s->vibration=.42F+.06F*sinf((float)i*.06F); s->pressure=4.8F+.18F*p; s->current=8.2F+.55F*p; s->humidity=45.0F+3.0F*sinf((float)i*.017F); if(fault&&i>180U){s->vibration+=.55F;s->current+=1.8F;} s->timestamp_ms=i*100U;}

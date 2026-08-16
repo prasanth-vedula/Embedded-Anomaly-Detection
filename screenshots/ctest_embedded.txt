@@ -1,0 +1,11 @@
+﻿Test project X:/Embedded-Anomaly-Detection/build/embedded
+    Start 1: EmbeddedCoreTest
+1/3 Test #1: EmbeddedCoreTest .................   Passed    0.03 sec
+    Start 2: EmbeddedPreprocessTest
+2/3 Test #2: EmbeddedPreprocessTest ...........   Passed    0.03 sec
+    Start 3: EmbeddedTinyMLTest
+3/3 Test #3: EmbeddedTinyMLTest ...............   Passed    0.03 sec
+
+100% tests passed, 0 tests failed out of 3
+
+Total Test time (real) =   0.12 sec

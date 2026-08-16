@@ -1,0 +1,18 @@
+﻿{
+  "scenario": "vibration_fault",
+  "model": [
+    80,
+    32,
+    8,
+    32,
+    80
+  ],
+  "threshold": 0.19294606685638452,
+  "window_count": 2385.0,
+  "mean_error": 1.3142993450164795,
+  "p95_error": 3.4942548274993896,
+  "p99_error": 4.651123523712158,
+  "max_error": 5.700313568115234,
+  "anomaly_rate": 0.5031446540880503,
+  "expected_behavior": "elevated reconstruction error from vibration disturbance"
+}

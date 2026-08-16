@@ -1,0 +1,14 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- D:\EMBDDED SYSTEMS & IOT\ALL SOFTWARES AND FILES\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: X:\Embedded-Anomaly-Detection
+configfile: pyproject.toml
+collecting ... collected 5 items
+
+tests/integration/test_deployment_consistency.py::test_fp32_and_int8_model_architecture_match PASSED [ 20%]
+tests/integration/test_deployment_consistency.py::test_deployment_threshold_is_identical_across_artifacts PASSED [ 40%]
+tests/integration/test_deployment_consistency.py::test_preprocessing_artifact_matches_deployment_dimensions PASSED [ 60%]
+tests/integration/test_deployment_consistency.py::test_exported_embedded_header_matches_model PASSED [ 80%]
+tests/integration/test_deployment_consistency.py::test_all_deployment_layers_exist PASSED [100%]
+
+============================== 5 passed in 0.40s ==============================
