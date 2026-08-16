@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "../Inc/Event/event.h"
 
 bool event_create(
